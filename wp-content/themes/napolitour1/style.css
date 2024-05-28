@@ -13,6 +13,7 @@ Description: NapoliTour1
 }
 body, html {
   margin:0;
+  height: 100%;
 }
 a {
   color:inherit;
@@ -25,7 +26,7 @@ h2 {
   color:#fee500;
 }
 p {
-  color:white;
+  color:black;
   font-family: 'Roboto Light',sans-serif;
   letter-spacing: 1px;
   margin: 0;
@@ -34,7 +35,7 @@ p {
 }
 body {
   overflow-x: hidden;
-  background-color: black;
+  background-color: white;
 }
 .row {
   margin: 0;
@@ -129,7 +130,7 @@ body {
   text-transform: uppercase;
 }
 .nav-link {
-  color:white;
+  color:black;
 }
 .nav-link:hover {
   color:   #0cfbfe;
@@ -159,15 +160,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center; 
+  padding: 50px;
 }
-.footer-links {
-  text-decoration: none;
-  color: black;
-  font-family: 'Silkscreen', cursive;
-  font-size: 14px;
-  margin: 0px;
-  line-height: 14px;
+.footertext {
+    color: white;
 }
+
 
 .blog-sidebar {
   margin-top: 1.5em;
@@ -211,11 +209,6 @@ padding-top: 0.5em;
     margin-top: 1em;
   }
  
-footer {
-margin: 0px;
-}
-
-
 }
 
  /* Small devices (portrait tablets and large phones, 600px and up) 2 */
@@ -267,30 +260,21 @@ margin: 0px;
   margin-top: 0;
 }
 
- footer {
-  margin: none;
-  padding-left: 9em;
-  padding-right: 9em;
-  padding-bottom: 6em;
- }
+ 
  } 
  
 
  /* Large devices (laptops/desktops, 992px and up) 4 */
  @media only screen and (min-width: 992px) {  
 
-  footer {
-    padding: 0 4em 6em;
-}
+ 
   
  }      
  
  /* Extra large devices (large laptops and desktops, 1200px and up) 5*/
  @media only screen and (min-width: 1200px) {
 
-  footer {
-    padding: 0 10em 6em;
-  }
+  
   .tab-testo {
     height: 110px;
   }
