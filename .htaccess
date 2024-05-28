@@ -21,7 +21,7 @@ RewriteRule . /napolitour/index.php [L]
 # Le direttive (linee) tra "BEGIN Simply Static" e "END Simply Static" sono
 # generate dinamicamente, e dovrebbero essere modificate solo tramite i filtri di WordPress.
 # Ogni modifica alle direttive tra questi marcatori verrà sovrascritta.
-<Files "C:\xampp\htdocs\napolitour/wp-content/uploads\simply-static\b45d89eaf2bce2880d2806f224aeb6d5-debug.txt">
+<Files "C:\xampp\htdocs\napolitour/wp-content/uploads\simply-static\9d49771d920cab1e5632d05b47ed8340-debug.txt">
 require all denied
 require host localhost
 </Files>
